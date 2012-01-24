@@ -3,8 +3,11 @@
 This is an example application that uses the AntiMap Log application for iPhone and Android.
 http://theantimap.com/
 
-Once setup, you create a new trip by uploading a AntiMap csv file.
-It calculates a few basic things :
+=== See your trip on Google Maps!
+
+Create a new trip by uploading a AntiMap csv file.
+Once processed, it displays:
+* Your path on Google Map
 * Average speed
 * Minimum speed
 * Maximum speed
@@ -12,19 +15,15 @@ It calculates a few basic things :
 * Total elapsed time in hours
 * General direction (to be done)
 
-=== See your trip on Google Maps!
-
-
 == Getting Started
 
 This example uses MongoDB with mongomapper and Rails 3.2.0
 
 1. Install and start MongoDB on your system
 2. <tt>bundle</tt> and <tt>rails s</tt>
-3. Go to http://localhost:3000/ and upload your AntiMap CSV file
-4. Wait and look at your stats
+3. Go to http://localhost:3000/ and upload your AntiMap CSV file or an example in files folder
 
 == Lots to be done!
 
-I just started this weekend and we'll be adding more and more features as it goes. Also plan on bundling this in a gem when possible.
+I just started this weekend and I'll be adding more and more features as it goes. Also plan on bundling this in a gem when possible.
 Have fun!
