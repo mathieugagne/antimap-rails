@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @log.filename %></h1>
+
+<p>
+  <b>Minimum Speed</b>
+  <%= @log.minimum_speed %>
+</p>
+
+<p>
+  <b>Maximum Speed</b>
+  <%= @log.maximum_speed %>
+</p>
+
+<p>
+  <b>Average Speed</b>
+  <%= @log.average_speed %>
+</p>
+
+<p>
+  <b>Total Distance</b>
+  <%= @log.total_distance %>
+</p>
+
+<p>
+  <b>Total Time</b>
+  <%= @log.total_time_in_hours %>
+</p>
+
+<p>
+  <b>Path</b><br />
+  <%= gmaps({"polylines" => {"data" => @path}}) %>  
+</p>
+
+<%= link_to 'Back', logs_path %>
