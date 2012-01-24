@@ -19,7 +19,7 @@ Once processed, it displays:
 
 This example uses MongoDB with mongomapper and Rails 3.2.0
 
-1. Install and start MongoDB on your system
+1. Install and start MongoDB on your system (http://www.mongodb.org/)
 2. <tt>bundle</tt> and <tt>rails s</tt>
 3. Go to http://localhost:3000/ and upload your AntiMap CSV file or an example in files folder
 
